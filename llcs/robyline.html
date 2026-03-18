@@ -34,9 +34,17 @@
         </a>
 
         <div class="lang">
-          <button class="lang__btn" type="button">
+          <button class="lang__btn" type="button" id="langBtn">
             RU <span class="lang__chev">▾</span>
           </button>
+
+          <ul class="lang__menu" id="langMenu">
+            <li data-lang="ru">RU — Русский</li>
+            <li data-lang="en">EN — English</li>
+            <li data-lang="es">ES — Español</li>
+            <li data-lang="pt">PT — Português</li>
+            <li data-lang="zh-CN">ZH — 中文</li>
+          </ul>
         </div>
       </div>
     </header>
@@ -176,5 +184,10 @@
         </div>
       </div>
     </footer>
+
+    <div id="google_translate_element" class="google-translate-holder"></div>
+
+    <script src="../js/google-translate.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>
